@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div className="carousel w-full h-[600px]">
             <div id="slide1" className="carousel-item relative w-full">
-                <img src="https://source.unsplash.com/group-of-people-in-front-of-stage-ZhQCZjr9fHo" className="w-full rounded-xl" />
+                <img src="https://source.unsplash.com/people-watching-concert-during-night-time-EOYnbWZDyOk" className="w-full rounded-xl" />
                 <div className="absolute rounded-xl flex items-center h-full left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
                     <div className='text-white space-y-7 pl-12 w-full'>
                         <h1 className='text-transparent bg-clip-text  text-3xl bg-gradient-to-r from-white via-white to-white lg:text-7xl font-serif	 font-semibold  pt-36'>Welcome to <br /><span className='animate__animated animate__bounceInLeft animate-delay-2s  font-extrabold bg-gradient-to-r from-white to-white text-transparent bg-clip-text '>Vibrant Vibes</span></h1>
@@ -59,7 +59,7 @@ const Home = () => {
                 </div>
             </div>
             <div id="slide4" className="carousel-item relative w-full">
-                <img src="https://source.unsplash.com/people-watching-concert-during-night-time-EOYnbWZDyOk" className="w-full rounded-xl" />
+                <img src="https://source.unsplash.com/group-of-people-in-front-of-stage-ZhQCZjr9fHo" className="w-full rounded-xl" />
                 <div className="absolute rounded-xl flex items-center h-full left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
                     <div className='text-white space-y-7 pl-12 w-full'>
                         <h1 className='text-transparent bg-clip-text  text-3xl bg-gradient-to-r from-white via-white to-white lg:text-7xl font-serif	 font-semibold  pt-36'>Welcome to <br /><span className='animate__animated animate__bounceInLeft animate-delay-2s  font-extrabold bg-gradient-to-r from-white to-white text-transparent bg-clip-text '>Vibrant Vibes</span></h1>
