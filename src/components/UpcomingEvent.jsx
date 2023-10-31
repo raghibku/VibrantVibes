@@ -7,7 +7,7 @@ const UpcomingEvent = () => {
    <div name="events" className='min-h-screen flex flex-col justify-center items-center '>
       <h1 className='text-5xl font-bold text-primary text-center'>Upcoming Events</h1>
 
-      <div className='flex flex-col md:flex-row justify-around items-center my-12 w-[80%] py-8 border-y-2'>
+      <div className='flex flex-col md:flex-row justify-around items-center my-12 lg:w-[80%] py-8 border-y-2'>
 
         <div className='flex flex-col justify-start items-center md:w-[20%]'>
           <h1 className='text-3xl text-accent-focus pb-4 border-b-8 border-primary'>Jan</h1>

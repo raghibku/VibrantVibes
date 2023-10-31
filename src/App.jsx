@@ -19,10 +19,8 @@ function App() {
     <>
       <NavBar/>
       <Home/>
-      
       <About/>
       <Services/>
-      
       <UpcomingEvent/>
       <Media/>
       <Gallery/>

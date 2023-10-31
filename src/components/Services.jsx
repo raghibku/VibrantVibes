@@ -17,12 +17,12 @@ const Services = () => {
         <div name="services" className='flex flex-col items-center justify-center my-16 '>
             <h1 className='text-5xl font-bold text-center my-8 text-primary'>Our Services</h1>
             <div className=''>
-                <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 w-full'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full'>
                     {
                         services ? services.map((service) => { return(
-                            <div data-aos="fade-up" key={service.id} className='flex justify-center items-center px-12 py-12 w-[400px] h-[480px] bg-neutral shadow-[0_35px_60px_-15px_rgba(58,191,248,0.3)] rounded-lg '>
+                            <div data-aos="fade-up" key={service.id} className='flex justify-center items-center px-12 py-12 w-[350px] lg:w-[400px] h-[480px] bg-neutral shadow-[0_35px_60px_-15px_rgba(58,191,248,0.3)] rounded-lg '>
                                 <div className='flex flex-col justify-between items-start gap-2 '>
-                                    <img src={service.image} className='w-[350px] h-[250px]' alt="" />
+                                    <img src={service.image} className='w-[300px] lg:w-[350px] h-[250px]' alt="" />
                                     <h1 className='text-xl text-blue-300 h-[56px] font-bold'>{service.name}</h1>
                                     <p className='text-xl font-semibold'>Price: {service.min_price}</p>
                                     <p>{service.short_description}</p>

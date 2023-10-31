@@ -5,7 +5,7 @@ const About = () => {
 
         <div name="about" className=" mb-8">
             <div className="hero min-h-screen">
-                <div className="hero-content flex-col lg:flex-row-reverse">
+                <div className="hero-content flex-col md:flex-row-reverse">
                     
                     <div className='md:w-[50%] '>
                         <h1 className="text-5xl text-primary font-bold">About Us</h1>
@@ -13,9 +13,9 @@ const About = () => {
                         <br />
                         Our mission is to bring music to life by curating immersive and unforgettable events that resonate with music lovers of all genres. We take pride in our attention to detail and our commitment to delivering seamless, world-class productions.
                         </p>
-                        <button className="btn btn-primary">Get Started</button>
+                        
                     </div>
-                    <img src=" /images/About.png" className="shadow-[0_35px_60px_-15px_rgba(58,191,248,0.7)] max-w-sm rounded-lg  " />
+                    <img src=" /images/About.png" className="hidden md:flex md:w-[40%] shadow-[0_35px_60px_-15px_rgba(58,191,248,0.7)] max-w-sm rounded-lg  " />
                 </div>
             </div>
             

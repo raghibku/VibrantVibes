@@ -46,13 +46,13 @@ const NavBar = () => {
             <div className="left ml-8">
               <div className="flex justify-center items-center">
                 <img src=" /logo/icons8-music-50.png" className="h-14" alt="" />
-              <h1 className='text-4xl font-signature text-primary'>Vibrant Vibes</h1>
+              <h1 className='text-2xl md:text-4xl font-signature text-primary'>Vibrant Vibes</h1>
               </div>
                 
             </div>
             <div className="right mr-4">
 
-                <ul className="hidden md:flex">
+                <ul className="hidden lg:flex">
                     {links.map(({ id, link }) => (
                     <li key={id} className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">
                         <Link to={link} smooth duration={500}>
@@ -62,7 +62,7 @@ const NavBar = () => {
                     ))}
                 </ul>
             </div>
-            <div onClick={() => setNav(!nav)} className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">
+            <div onClick={() => setNav(!nav)} className="cursor-pointer pr-4 z-10 text-gray-500 lg:hidden">
                 {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
             </div>
             {nav &&
