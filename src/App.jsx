@@ -11,6 +11,7 @@ import Gallery from './components/Gallery'
 import Contact from './components/Contact'
 import Testimonials from './components/Testimonials'
 import 'animate.css';
+import Media from './components/Media'
 
 function App() {
 
@@ -18,9 +19,12 @@ function App() {
     <>
       <NavBar/>
       <Home/>
+      
       <About/>
       <Services/>
+      
       <UpcomingEvent/>
+      <Media/>
       <Gallery/>
       <Testimonials/>
       <FAQ/>
