@@ -1,0 +1,25 @@
+An event management page(concerts)
+
+a.sections:
+y	1.Banner: Banner with text upon 
+y	2.About us : Hero Section with human
+y	3.Upcoming Events: One Event with date, time, venue, and featured artists ,buy 		tickets
+y	4.Past Events: Gallery with Slider? 
+y	5.Services: Service Cards with service detail Routes
+y	6.testimonials: Testimonials 
+y	7.contact us
+y	8.Faq
+	9.Tickets
+
+
+b.theme:
+ primary: 3ABFF8
+ accent-focus: f250a3
+c.animation and animation libraries:
+
+	newsbulletin -animation (react marque)
+	human Animation-unDraw
+	aos animation
+	Hover Effect
+	
+	

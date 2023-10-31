@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "name": "Talent Booking and Artist Management",
+      "image": "https://i.ibb.co/LprZRRf/talent-booking.jpg",
+      "min_price":"1000$ (min)",
+      "price": "Varies (depending on artist fees)",
+      "short_description": "Secure top musical acts and manage their logistics.",
+      "long_description": "Our team specializes in booking headline artists and managing all aspects of their participation in your event. We negotiate contracts, handle artist hospitality, and ensure that their technical requirements are met to deliver outstanding performances."
+    },
+    {
+      "id": 2,
+      "name": "Event Planning and Design",
+      "image": "https://i.ibb.co/PwgJ2m4/event-planning.jpg",
+      "min_price":"1000$ (min)",
+      "price": "Varies (depending on event scale and complexity)",
+      "short_description": "Conceptualize and design your event from start to finish.",
+      "long_description": "We work closely with you to create a unique event concept and design that aligns with your vision. From venue selection to stage design, our team takes care of all the details to make your event visually stunning and memorable."
+    },
+    {
+      "id": 3,
+      "name": "Production and Technical Services",
+      "image": "https://i.ibb.co/dQ9GcS7/production-services.jpg",
+      "min_price":"1000$ (min)",
+      "price": "Varies (depending on technical requirements)",
+      "short_description": "Ensure top-notch sound, lighting, and technical production.",
+      "long_description": "Our experts handle all aspects of technical production, including sound engineering, lighting design, and the use of special effects and pyrotechnics. We ensure that your event's technical aspects run seamlessly."
+    },
+    {
+      "id": 4,
+      "name": "Logistics and Operations",
+      "image": "https://i.ibb.co/MBgRg5p/logistics-operations.jpg",
+      "min_price":"1000$ (min)",
+      "price": "Varies (depending on event size and complexity)",
+      "short_description": "Efficiently manage all event logistics and operations.",
+      "long_description": "From crowd management and security planning to ticketing, vendor coordination, and transportation logistics, we take care of the operational details to ensure a safe and smooth event experience for all attendees."
+    },
+    {
+      "id": 5,
+      "name": "Promotion and Marketing",
+      "image": "https://i.ibb.co/XXZGHJM/promotion-marketing.png",
+      "price": "Varies (depending on marketing budget)",
+      "min_price":"1000$ (min)",
+      "short_description": "Promote your event through strategic marketing and advertising.",
+      "long_description": "Our marketing team develops comprehensive strategies to promote your event, including ticket sales, social media campaigns, public relations efforts, and securing sponsorships and partnerships."
+    },
+    {
+      "id": 6,
+      "name": "Event Management and Coordination",
+      "image": "https://i.ibb.co/Lx8zh3k/event-management.png",
+      "min_price":"1000$ (min)",
+      "price": "Varies (depending on event duration and size)",
+      "short_description": "Handle on-site event management and coordination.",
+      "long_description": "Our experienced event managers oversee all on-site operations, including staffing, backstage and artist area management, and emergency response planning, to ensure your event runs smoothly and safely."
+    }
+]
+
