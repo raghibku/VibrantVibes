@@ -42,9 +42,13 @@ const NavBar = () => {
     
 
     return (
-        <div className='bg-base-100 w-full h-20 flex justify-between items-center'>
+        <div className='bg-neutral fixed top-0 left-0 right-0 z-10 w-full h-20 flex justify-between items-center'>
             <div className="left ml-8">
-                <h1 className='text-4xl font-signature text-primary'>Vibrant Vibes</h1>
+              <div className="flex justify-center items-center">
+                <img src=" /logo/icons8-music-50.png" className="h-14" alt="" />
+              <h1 className='text-4xl font-signature text-primary'>Vibrant Vibes</h1>
+              </div>
+                
             </div>
             <div className="right mr-4">
 

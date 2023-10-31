@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 import Gallery from './components/Gallery'
 import Contact from './components/Contact'
 import Testimonials from './components/Testimonials'
+import 'animate.css';
 
 function App() {
 

@@ -4,8 +4,8 @@ import {AiFillCalendar} from 'react-icons/ai'
 
 const UpcomingEvent = () => {
   return (
-   <div name="events" className='h-screen flex flex-col justify-center items-center '>
-      <h1 className='text-4xl font-bold text-primary text-center'>Upcoming Events</h1>
+   <div name="events" className='min-h-screen flex flex-col justify-center items-center '>
+      <h1 className='text-5xl font-bold text-primary text-center'>Upcoming Events</h1>
 
       <div className='flex flex-col md:flex-row justify-around items-center my-12 w-[80%] py-8 border-y-2'>
 
@@ -20,28 +20,28 @@ const UpcomingEvent = () => {
         </div>
 
         <div className='flex flex-col justify-start items-start md:w-[40%] gap-2'>
-          <h1 className='text-2xl font-bold'>DASTAAN - a tribute to Rekha</h1>
+          <h1 className='text-2xl font-bold'>RockFest 2024 - Rock Resurrection</h1>
           <div className='flex flex-col justify-between items-start'>
 
             <div className='flex justify-between items-start gap-2'>
               <div className='text-accent-focus'><FaLocationDot/></div>
-              <h2>Gyan Manch</h2>
+              <h2>ICCB Hall-5,Bashundhara</h2>
             </div>
 
-            <h2>Get Directions</h2>
+            <a>Get Directions</a>
           </div>
 
           <div className='flex flex-col justify-between items-start'>
 
             <div className='flex justify-start items-start gap-2'>
               <div className='text-accent-focus'><AiFillCalendar/></div>
-              <h2>Saturday, Jan 27, 2018 at 5:30 PM</h2>
+              <h2>Saturday, Jan 27, 2024 at 5:30 PM</h2>
             </div>
 
-            <h2>Get Directions</h2>
+            <h2>More information</h2>
           </div>
 
-          <p>"For a woman to be complete, she has to be a blend of Paro & Chandramukhi. I feel that I am that woman." - Rekha</p>
+          <p>"Get ready for a night of pure rock energy! Our upcoming show will feature electrifying bands, killer riffs, and unforgettable moments. Don't miss it!" - James</p>
 
           <button className='btn btn-primary text-white'>BOOK YOUR ENTRY</button>
         </div>

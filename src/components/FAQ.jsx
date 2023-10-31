@@ -21,12 +21,12 @@ const FAQ = () => {
     ]);
 
     return (
-        <div name="faq" className="hero min-h-screen bg-base-200">
+        <div name="faq" className="hero min-h-screen bg-base-100">
             <div className="hero-content flex-col lg:flex-row">
-                <img src="/images/undraw_Questions_re_1fy7.png" className="max-w-sm rounded-lg shadow-2xl" />
+                <img src="/images/undraw_Questions_re_1fy7.png" className="max-w-sm rounded-lg shadow-[0_35px_60px_-15px_rgba(58,191,248,0.3)]" />
                 <section id="faq" className=" py-12">
                     <div className="container mx-auto px-4">
-                        <h2 className="text-3xl font-semibold mb-6 text-primary">Frequently Asked Questions</h2>
+                        <h2 className="text-5xl font-semibold mb-6 text-primary">Frequently Asked Questions</h2>
                         <div className="space-y-6">
                             {faqs.map((faq, index) => (
                                 <div className="collapse collapse-arrow bg-base-200">

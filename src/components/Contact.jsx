@@ -4,14 +4,14 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen p-4 "
+      className="w-full h-screen p-4 my-8"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+        <div className="text-center pb-8">
+          <p className="text-5xl font-bold text-primary">
             Contact
           </p>
-          <p className="py-6">Please submit the form below to get in touch with us</p>
+          <p className="py-6 text-2xl">Please submit the form below to get in touch with us</p>
         </div>
 
         <div className=" flex justify-center items-center">
